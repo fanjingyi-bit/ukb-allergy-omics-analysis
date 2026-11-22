@@ -1,0 +1,67 @@
+# Data and participant-level files
+*.csv
+*.tsv
+*.txt
+!SHA256SUMS.txt
+*.rds
+*.RData
+*.rda
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.fst
+*.sav
+*.dta
+*.sas7bdat
+
+# Genotype and genomic intermediate files
+*.bed
+*.bim
+*.fam
+*.pgen
+*.pvar
+*.psam
+*.pgen.pvar
+*.kin0
+*.king
+*.eigenvec
+*.eigenval
+*.prune.in
+*.prune.out
+*.clumps
+*.glm.*
+*.ma
+*.gz
+
+# Analysis outputs and logs
+aggregate_outputs/
+score_outputs/
+analysis_outputs/
+results/
+outputs/
+*.log
+*.pdf
+*.png
+*.tiff
+*.tif
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+secrets/
+
+# R and editor files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+Thumbs.db
+
+# UK Biobank audit reports
+ukb_audit_reports/
